@@ -1,0 +1,88 @@
+body {
+  background-color: #FFF38C;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title, #description {
+  text-align: center;
+  margin: 20px;
+  font-weight: 700;
+
+}
+
+#survey-form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+fieldset {
+  padding: 10px;
+  background-color: #F0E161;
+  border: none;
+}
+
+label {
+  display: block;
+  padding: 10px;
+
+}
+
+fieldset p {
+  padding: 10px;
+  font-weight: 700;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  background-color: #C0B236;
+  padding: 5px;
+
+}
+
+#name, #email, #number {
+
+  min-width: 480px;
+  float:right;
+  padding: 5px;
+  border: none;
+  background-color: #C0B236;
+
+}
+
+#dropdown {
+  min-width: 480px;
+  float:left;
+  padding: 5px;
+  border: none;
+  background-color: #C0B236;
+}
+
+.button {
+  text-align: center;
+  background-color: #FFF38C;
+}
+
+#submit {
+  width: 40%;
+  border: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #C0B236;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 10px;

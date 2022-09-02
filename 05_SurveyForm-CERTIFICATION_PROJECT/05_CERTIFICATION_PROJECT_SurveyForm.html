@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+
+      <fieldset>
+        <p>Please identify yourself:</p>
+        <label id="name-label">Name <input id="name" type="text" placeholder="firstname/lastname" required /></label>
+        <label id="email-label">Email <input id="email" type="email" placeholder="email" required /></label>
+        <label id="number-label">Age <input id="number" type="number" pattern="[0-9]" min="18" max="120" placeholder="number(18-100)" /></label>
+      </fieldset>
+
+      <fieldset class="-fieldset">
+        <p>Which option best describes your current role? </p>
+        <label>
+          <select id="dropdown">
+            <option value="">(select current job</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label><input type="radio" name="recomendation" value="1" />Definitely</label>
+        <label><input type="radio" name="recomendation" value="2" />Maybe</label>
+        <label><input type="radio" name="recomendation" value="3" />Not sure</label>
+      </fieldset>
+
+      <fieldset>
+        <p>What is your favorite feature of freeCodeCamp? </p>
+        <label>
+          <select id="dropdown" />
+            <option value="">(select an option</option>
+            <option value="1">Challeges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label><input type="checkbox" value="1" />Front-end Projects</label>
+        <label><input type="checkbox" value="2" />Back-end Projects</label>
+        <label><input type="checkbox" value="3" />Data Visualization</label>
+        <label><input type="checkbox" value="4" />Videos</label>
+      </fieldset>
+
+      <fieldset>
+        <p>Any comments or suggestions?</p>
+        <label>
+        <textarea name="suggestions" row="6" cols="72" placeholder="Enter your comment here ..."></textarea></label>
+      </fieldset>
+
+      <fieldset class="button">
+        <input id="submit" type="submit" value="SUBMIT" />
+      </fieldset>
+
+    </form>
+    <footer>
+      <p>
+        Challenge by <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank"  >freeCodeCamp</a>. Coded by Dalibor Stolarski.
+      </p>
+    </footer>
+  </body>
+</html>

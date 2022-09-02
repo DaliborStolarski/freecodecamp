@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: #EB1D36;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+
+}
+
+#navbar li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 110px;
+  height: 100%;
+
+}
+
+#navbar a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+
+}
+
+.nav-link-work {
+  margin-left: 5px;
+}
+
+#navbar a:hover {
+  color: grey;
+
+}
+
+/* FIRST SECTION: WELCOME  */
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #F5EDDC;
+  padding: 150px 0;
+  }
+
+#welcome-section h1 {
+  font-size: 60px;
+  margin: 10px;
+}
+
+#welcome-section img {
+  margin: 20px;
+}
+
+/* SECOND SECTION: PROJECTS */
+
+#projects {
+  background-color: #CFD2CF;
+}
+
+.container-work-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  padding: 30px 0 180px 0;
+}
+
+.container-work-details img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1px;
+  border-radius: 10px;
+
+}
+
+.projects-text-h1, .projects-text-p {
+  text-align: center;
+  text-decoration: none;
+}
+
+.projects-text-h1 {
+  font-size: 40px;
+  padding: 30px 0 0 0;
+  line-height: 2;
+}
+
+.projects-text-p a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.projects-text-p a:hover {
+  color: grey;
+}
+
+.container-work-details a {
+  text-align:center;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+
+}
+
+.project-title {
+  padding-bottom: 15px;
+}
+
+/* THIRD SECTION: WORKS & CONTACTS */
+
+#work {
+  background-color: #F5EDDC;
+}
+
+#work h1, p {
+  text-align: center;
+}
+
+#work h1 {
+  font-size: 60px;
+  padding: 30px 0 0 0;
+  line-height: 2;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  width: 100%;
+  padding: 30px 0 150px 0;
+
+}
+
+.contact-links a {
+  padding: 40px;
+  text-align:center;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  font-size: 30px;
+  transition-property: font-size;
+  transition-duration: 1s;
+}
+
+.contact-links a:hover {
+  color: grey;
+  font-size: 40px;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
+p > a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+p > a:hover {
+  color: grey;
+
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}

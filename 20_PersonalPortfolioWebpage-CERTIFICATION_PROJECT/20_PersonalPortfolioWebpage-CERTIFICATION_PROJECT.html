@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ad1e939a91.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <div id="navbar" class="navbar">
+      <ul>
+        <li>
+          <a class="nav-link-about" href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a class="nav-link-work" href="#projects">Work</a>
+        </li>
+        <li>
+          <a class="nav-link-contact" href="#work">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <section id="welcome-section" class="container-about">
+      <h1>Hey I am Dalibor</h1>
+      <p>a web developer ... </p>
+      <img src="./images/me.png" alt="me-developer">
+    </section>
+
+    <section id="projects" class="container-work">
+      <h1 class="projects-text-h1">These are some of my projects</h1>
+      <p class="projects-text-p">Challenge by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a> ...</p>
+
+      <div class="container-work-details">
+
+        <a href="https://daliborstolarski.github.io/03_nft-preview-card-component/" target="_blank" class="project project-tile">
+          <img class="project-image" src="./images/nft-preview-card.jpg" alt="project-nft-preview-card">
+          <p class="project-title">NFT Preview Card</p>
+        </a>
+
+        <a href="https://daliborstolarski.github.io/04_product-preview-card-component/" target="_blank" class="project project-tile">
+          <img class="project-image" src="./images/product-preview-card.jpg" alt="project-product-preview-card">
+          <p class="project-title">Product Preview Card</p>
+        </a>
+
+        <a href="https://daliborstolarski.github.io/05_stats-preview-card-component/" target="_blank" class="project project-tile">
+          <img class="project-image" src="./images/stats-preview-card.jpg" alt="project-state-preview-card">
+          <p class="project-title">State Preview Card</p>
+        </a>
+      </div>
+
+    </section>
+
+    <section id="work" class="container-contact">
+
+        <h1>Let's work together!</h1>
+        <p>What about to take a coffee?</p>
+
+
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/dalibor-stolarski-35035585/" target="_blank" class="btn contact-details"><i class="fa fa-linkedin"></i> LinkedIn</a>
+        <a id="profile-link" href="https://github.com/DaliborStolarski" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:dalibor.stolarski@seznam.cz" class="btn contact-details"><i class="fas fa-at"></i> Mail</a>
+        <a href="tel:555-555-5555" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Mobile</a>
+      </div>
+
+      <footer>
+        <p>
+          Challenge by <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp<i class="fa fa-free-code-camp"></i></a> - Coded by Dalibor Stolarski
+        </p>
+      </footer>
+
+    </section>
+
+
+
+  </body>
+</html>
